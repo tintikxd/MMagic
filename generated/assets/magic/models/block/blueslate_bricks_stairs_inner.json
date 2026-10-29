@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "magic:block/blueslate_bricks",
+    "side": "magic:block/blueslate_bricks",
+    "top": "magic:block/blueslate_bricks"
+  }
+}
