@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magic:lilio_de_flor_magica"
+    }
+  ],
+  "result": {
+    "item": "magic:lilio_pulido_magico",
+    "count": 1
+  }
+}
