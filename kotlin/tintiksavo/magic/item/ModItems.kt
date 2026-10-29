@@ -20,6 +20,8 @@ object ModItems {
     val MAGICENTO_SPAWN_EGG: Item = spawnEgg("magicento", MagicEnemyVariant.MAGICENTO, ModEntities.MAGICENTO)
     val MAGIQUICENTO_SPAWN_EGG: Item = spawnEgg("magiquicento", MagicEnemyVariant.MAGIQUICENTO, ModEntities.MAGIQUICENTO)
     val BUFONBOSS_SPAWN_EGG: Item = spawnEgg("bufonboss", MagicEnemyVariant.BUFONBOSS, ModEntities.BUFONBOSS)
+    val LILIO_DE_FLOR_MAGICA: Item = Registry.register(BuiltInRegistries.ITEM, Magic.id("lilio_de_flor_magica"), Item(Item.Properties()))
+    val LILIO_PULIDO_MAGICO: Item = Registry.register(BuiltInRegistries.ITEM, Magic.id("lilio_pulido_magico"), Item(Item.Properties()))
     val KATANA: Item = Registry.register(BuiltInRegistries.ITEM, Magic.id("katana"), SwordItem(Tiers.DIAMOND, 0, 0.5f, Item.Properties()))
 
     private fun spawnEgg(id: String, variant: MagicEnemyVariant, type: EntityType<out Mob>): Item = Registry.register(
@@ -34,6 +36,8 @@ object ModItems {
             entries.accept(MAGICENTO_SPAWN_EGG)
             entries.accept(MAGIQUICENTO_SPAWN_EGG)
             entries.accept(KATANA)
+            entries.accept(LILIO_DE_FLOR_MAGICA)
+            entries.accept(LILIO_PULIDO_MAGICO)
             entries.accept(BUFONBOSS_SPAWN_EGG)
 
         }
