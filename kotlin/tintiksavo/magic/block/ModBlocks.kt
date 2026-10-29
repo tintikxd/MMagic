@@ -6,12 +6,16 @@ import net.minecraft.world.item.BlockItem
 import net.minecraft.world.item.Item
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.block.Blocks
+import net.minecraft.world.level.block.FlowerBlock
+import net.minecraft.world.effect.MobEffects
 import net.minecraft.world.level.block.StairBlock
 import net.minecraft.world.level.block.state.BlockBehaviour
 import tintiksavo.magic.Magic
 
 /** Reconstruido a partir del bytecode de ModBlocks.class del JAR magic-1.0.0.jar. */
 object ModBlocks {
+    val FLOR_MAGICA: Block = registerBlock("flor_magica", FlowerBlock(MobEffects.MOVEMENT_SPEED, 5, BlockBehaviour.Properties.copy(Blocks.ALLIUM)))
+
     val NINJA_BLOCK: Block = registerBlock("ninja_block", Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)))
     val PILAR_NINJA_BLOCK: Block = registerBlock("pilar_ninja_block", Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)))
     val CENTER_BLOCK: Block = registerBlock("center_block", Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)))

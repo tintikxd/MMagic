@@ -9,6 +9,10 @@
 	"item.magic.magicento_spawn_egg": "Magicento Spawn Egg",
 	"item.magic.magiquicento_spawn_egg": "Magiquicento Spawn Egg",
 	"item.magic.bufonboss_spawn_egg": "Bufon Boss Spawn Egg",
-	"effect.magic.shaking": "Shaking"
+	"effect.magic.shaking": "Shaking",
+	"block.magic.flor_magica": "Magic Flower",
+	"item.magic.lilio_de_flor_magica": "Magic Flower Lilio",
+	"item.magic.lilio_pulido_magico": "Polished Magic Lilio",
+	"biome.magic.bosque_magico": "Magical Grove"
 }
 

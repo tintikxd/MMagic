@@ -18,6 +18,7 @@ object ModCreativeTabs {
             .icon { ItemStack(ModBlocks.CENTER_BLOCK) }
             .displayItems { _, entries ->
                 listOf(
+                    ModBlocks.FLOR_MAGICA,
                     ModBlocks.NINJA_BLOCK, ModBlocks.PILAR_NINJA_BLOCK, ModBlocks.CIRCUS_BLOCK,
                     ModBlocks.CENTER_BLOCK, ModBlocks.BLUESTONE_BRICKS, ModBlocks.BLUESTONE_BRICK,
                     ModBlocks.CHISELED_POLISHED__BLUESTONE, ModBlocks.POLISHED__BLUESTONE,
@@ -29,6 +30,8 @@ object ModCreativeTabs {
 
 
                 ModArmorItems.SETS.values.flatten().forEach { entries.accept(it) }
+                entries.accept(ModItems.LILIO_DE_FLOR_MAGICA)
+                entries.accept(ModItems.LILIO_PULIDO_MAGICO)
             }.build()
     )
 
