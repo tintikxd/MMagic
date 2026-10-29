@@ -9,5 +9,9 @@
 	"item.magic.magicento_spawn_egg": "Huevo generador de Magicento",
 	"item.magic.magiquicento_spawn_egg": "Huevo generador de Magiquicento",
 	"item.magic.bufonboss_spawn_egg": "Huevo generador de Bufon Boss",
-	"effect.magic.shaking": "Terremoto"
+	"effect.magic.shaking": "Terremoto",
+	"block.magic.flor_magica": "Flor Mágica",
+	"item.magic.lilio_de_flor_magica": "Lilio de Flor Mágica",
+	"item.magic.lilio_pulido_magico": "Lilio Pulido Mágico",
+	"biome.magic.bosque_magico": "Bosque Mágico"
 }
