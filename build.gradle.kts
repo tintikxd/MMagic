@@ -58,6 +58,7 @@ dependencies {
 	minecraft("com.mojang:minecraft:${providers.gradleProperty("minecraft_version").get()}")
     mappings(loom.officialMojangMappings())
 	modImplementation("net.fabricmc:fabric-loader:${providers.gradleProperty("loader_version").get()}")
+	modImplementation("com.github.glitchfiend:TerraBlender-fabric:1.20.1-3.0.0.167")
 
 	modImplementation("maven.modrinth:zJpHMkdD:155jtqJi")
 
