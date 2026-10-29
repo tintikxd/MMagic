@@ -1,0 +1,207 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"animation_length": 1.5,
+			"bones": {
+				"hat": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [0, -360, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 3, 0]
+					}
+				},
+				"secondhead": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, -1, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"pitchfork": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"pitchfork2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"pitchfork3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"pitchfork4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"walk": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"leg0": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-12.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [15, 0, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [2.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [-12.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"pitchfork": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"pitchfork2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"pitchfork3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"pitchfork4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"attack": {
+			"animation_length": 1.4583,
+			"bones": {
+				"pitchfork": {
+					"position": {
+						"0.0": {
+							"vector": [0, 8, 0]
+						},
+						"0.375": {
+							"vector": [0, 13, 0]
+						},
+						"1.0": {
+							"vector": [0, -20, 0],
+							"easing": "easeInQuint"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"pitchfork4": {
+					"position": {
+						"0.0": {
+							"vector": [0, 8, 0]
+						},
+						"0.375": {
+							"vector": [0, 13, 0]
+						},
+						"1.0": {
+							"vector": [0, -20, 0],
+							"easing": "easeInQuint"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"pitchfork2": {
+					"position": {
+						"0.0": {
+							"vector": [0, 8, 0]
+						},
+						"0.375": {
+							"vector": [0, 13, 0]
+						},
+						"1.0": {
+							"vector": [0, -20, 0],
+							"easing": "easeInQuint"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"pitchfork3": {
+					"position": {
+						"0.0": {
+							"vector": [0, 8, 0]
+						},
+						"0.375": {
+							"vector": [0, 13, 0]
+						},
+						"1.0": {
+							"vector": [0, -20, 0],
+							"easing": "easeInQuint"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	}
+}
