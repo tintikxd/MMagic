@@ -13,6 +13,7 @@ import tintiksavo.magic.item.ModCreativeTabs
 import tintiksavo.magic.item.ModItems
 import tintiksavo.magic.music.MusicServerManager
 import tintiksavo.magic.network.KatanaAbilityHandler
+import tintiksavo.magic.worldgen.ModWorldgen
 
 
 
@@ -24,6 +25,7 @@ object Magic : ModInitializer {
     override fun onInitialize() {
         ModEffects.register()
         ModBlocks.register()
+        ModWorldgen.register()
         ModArmorItems.register()
         ModCreativeTabs.register()
         ModCommands.register()
