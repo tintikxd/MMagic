@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "magic:lilio_pulido_magico"
+    }
+  },
+  "result": {
+    "item": "magic:magic_boots",
+    "count": 1
+  }
+}
