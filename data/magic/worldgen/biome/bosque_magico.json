@@ -17,7 +17,9 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
-    }
+    },
+    "grass_color": 13924535,
+    "foliage_color": 11756520
   },
   "features": [
     [],
