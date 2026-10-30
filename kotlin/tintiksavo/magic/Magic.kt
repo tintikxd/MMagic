@@ -13,7 +13,7 @@ import tintiksavo.magic.item.ModCreativeTabs
 import tintiksavo.magic.item.ModItems
 import tintiksavo.magic.music.MusicServerManager
 import tintiksavo.magic.network.KatanaAbilityHandler
-
+import tintiksavo.magic.worldgen.ModWorldgen
 
 
 object Magic : ModInitializer {
@@ -29,7 +29,7 @@ object Magic : ModInitializer {
         ModCommands.register()
         ModEntities.register()
         ModItems.register()
-
+        ModWorldgen.register()
         ModCommands.register()
         BossTransformationManager.register()
         KatanaAbilityHandler.registerServerPacket()
