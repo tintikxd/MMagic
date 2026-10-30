@@ -1,19 +1,7 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "magic:lilio_de_flor_magica"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+  "variants": {
+    "": {
+      "model": "magic:block/flor_magica"
     }
-  ]
+  }
 }
