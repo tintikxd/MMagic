@@ -1,7 +1,6 @@
 {
-  "variants": {
-    "": {
-      "model": "magic:block/polished_bluestone_bricks"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "magic:block/polished_bluestone_bricks"
   }
 }

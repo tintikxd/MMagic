@@ -1,16 +1,7 @@
 {
-  "variants": {
-    "axis=y": {
-      "model": "magic:block/magic_log"
-    },
-    "axis=z": {
-      "model": "magic:block/magic_log",
-      "x": 90
-    },
-    "axis=x": {
-      "model": "magic:block/magic_log",
-      "x": 90,
-      "y": 90
-    }
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "magic:block/magic_log",
+    "side": "magic:block/magic_log"
   }
 }

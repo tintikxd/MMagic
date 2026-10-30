@@ -1,7 +1,6 @@
 {
-  "variants": {
-    "": {
-      "model": "magic:block/magic_dirt"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "magic:block/magic_dirt"
   }
 }

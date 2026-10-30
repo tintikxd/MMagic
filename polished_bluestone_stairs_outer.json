@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "magic:block/polished_bluestone",
+    "side": "magic:block/polished_bluestone",
+    "top": "magic:block/polished_bluestone"
+  }
+}

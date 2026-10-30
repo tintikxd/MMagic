@@ -1,7 +1,6 @@
 {
-  "variants": {
-    "": {
-      "model": "magic:block/blueslate"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "magic:block/blueslate"
   }
 }

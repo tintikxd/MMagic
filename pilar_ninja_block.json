@@ -1,5 +1,6 @@
 {
-  "variants": {
-    "": { "model": "magic:block/pilar_ninja_block" }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "magic:block/pilar_ninja_block"
   }
 }

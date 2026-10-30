@@ -1,7 +1,7 @@
+
 {
-  "variants": {
-    "": {
-      "model": "magic:block/flor_magica"
-    }
-  }
+"parent": "minecraft:block/cross",
+"textures": {
+"cross": "magic:block/flor_magica"
+}
 }

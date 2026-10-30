@@ -1,5 +1,6 @@
 {
-  "variants": {
-    "": { "model": "magic:block/ninja_block" }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "magic:block/ninja_block"
   }
 }
